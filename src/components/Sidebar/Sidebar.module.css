@@ -1,0 +1,29 @@
+.container {
+  width: 120px;
+  height:150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0rem;
+  background:#78AE99;
+  border:5px solid black;
+}
+
+.logo{
+    width:100%;
+    max-width: 5rem;
+}
+
+
+
+.menu{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.item>svg{
+    fill: rgb(11, 9, 9);
+    width: 3rem;
+}

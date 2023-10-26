@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+}
+
+.dashboard {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.header{
+    display: grid;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+}
+.header>:nth-child(1)
+{
+    font-size: 23px;
+}
+
+.profile{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center; 
+    margin-top:10px;
+    color:black;
+ 
+}
+
+.profile>img{
+    height: 50px;
+    width: 50px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+ 
+}
+
+.details
+{
+    font-size:20px;
+    font-weight: bold;
+}
+.content{
+    margin: auto;
+    display: flex;
+    height: 100%;
+    /* align-items: center; */
+    /* uncomment the aic, and make mt -4rem */
+    margin-top: 4rem;
+}
+.content>div{
+    width: 100%;
+    min-width: 75vh
+}
+

@@ -1,0 +1,49 @@
+.modalcontainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius:20px;
+    color: rgb(9, 9, 9);
+}
+.modalcontainer>div{
+    margin-top: 20px;
+}
+
+.label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input{
+    color: rgb(8, 6, 6);
+    font: inherit;
+    margin-top: 12px;
+    display: block;
+    background-color: transparent;
+    outline: none;
+    border:2px solid black;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    resize: none
+}
+
+.saveButton{
+    width: 6rem;
+    align-self: flex-end;
+    margin-top: 1.5rem;
+    background: #9c8aac;
+    border:2px solid black;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.saveButton:disabled{
+    background: #9c8aac;
+    border:2px solid black;
+}
